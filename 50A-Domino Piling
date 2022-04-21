@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int m,n,d,c;
+    cin>>m>>n;
+    if(m>=1 && m<=n && n<=16)
+    {
+        cout<<((m*n)/2)<<endl;
+    }
+    return 0;
+}
+ 
