@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int n,k,ara[50],i,j,r,c=0;
+
+    cin>>n>>k;
+    for(i=0;i<n;i++)
+    {
+        cin>>ara[i];
+    }
+    
+
+    r=ara[k-1];
+    for(i=0;i<n;i++)
+    {
+        if(ara[i]>=r && ara[i]!=0)
+        {
+            c++;
+        }
+    }
+    cout<<c<<endl;
+    return 0;
+}
