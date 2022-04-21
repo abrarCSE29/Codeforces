@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i,j,ara[5][5];
+    for(i=0;i<5;i++)
+    {
+        for(j=0;j<5;j++)
+        {
+            cin>>ara[i][j];
+        }
+    }
+    for(i=0;i<5;i++)
+    {
+        for(j=0;j<5;j++)
+        {
+            if(ara[i][j]!=0)
+            {
+                cout<<abs(i-2)+abs(j-2)<<endl;
+            }
+        }
+    }
+    return 0;
+}
